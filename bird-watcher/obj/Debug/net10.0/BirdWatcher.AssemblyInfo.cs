@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BirdWatcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61cafaa9e4c99eed9ac8962557f4de3a98c5af96")]
 [assembly: System.Reflection.AssemblyProductAttribute("BirdWatcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BirdWatcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
