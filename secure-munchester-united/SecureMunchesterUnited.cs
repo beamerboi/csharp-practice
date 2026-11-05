@@ -2,7 +2,19 @@ public class SecurityPassMaker
 {
     public string GetDisplayName(TeamSupport support)
     {
-        throw new NotImplementedException($"Please implement the SecurityPassMaker.GetDisplayName() method");
+        if(support.GetType() == typeof(Security))
+        {
+            return support.Title + " Priority Personnel";
+        }
+        else if (support is Staff)
+        {
+            return support.Title;
+        }
+        else if(support.GetType() == typeof(SecurityJunior) || support.GetType() == typeof(SecurityIntern) || support.GetType() == typeof(PoliceLiaison))
+        {
+            return support.Title;
+        }
+        return "Too Important for a Security Pass";
     }
 }
 
