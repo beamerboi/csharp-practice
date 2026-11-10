@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqueakyClean")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efafcb238882941cfe94d0b4d29d11c26d662fa1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b3948b638433cc550336fd0e6bb7b2dc4abb3a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqueakyClean")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqueakyClean")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
