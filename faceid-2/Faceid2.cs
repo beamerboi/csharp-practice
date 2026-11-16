@@ -8,7 +8,17 @@ public class FacialFeatures
         EyeColor = eyeColor;
         PhiltrumWidth = philtrumWidth;
     }
-    // TODO: implement equality and GetHashCode() methods
+    public override bool Equals(object? obj)
+    {
+        return obj is FacialFeatures other
+            && EyeColor == other.EyeColor
+            && PhiltrumWidth == other.PhiltrumWidth;
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(EyeColor, PhiltrumWidth);
+    }
 }
 
 public class Identity
@@ -21,7 +31,17 @@ public class Identity
         Email = email;
         FacialFeatures = facialFeatures;
     }
-    // TODO: implement equality and GetHashCode() methods
+    public override bool Equals(object? obj)
+    {
+        return obj is Identity other
+            && Email == other.Email
+            && FacialFeatures.Equals(other.FacialFeatures);
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(Email, FacialFeatures);
+    }
 }
 
 public class Authenticator
@@ -49,12 +69,11 @@ public class Authenticator
 
     public bool IsRegistered(Identity identity)
     {
-        return registered.Any(identity => identity.Email == identity.Email);
-
+        return registered.Any(x => x.Equals(identity));
     }
 
     public static bool AreSameObject(Identity identityA, Identity identityB)
     {
-        return identityA.Equals(identityB);
+        return ReferenceEquals(identityA, identityB);
     }
 }

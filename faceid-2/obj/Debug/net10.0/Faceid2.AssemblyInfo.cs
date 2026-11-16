@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Faceid2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f04e49b2ac12a4474822ad6f69aa5e85d3bdf1f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92f215f020e16e947c3e9a770f9e01940afe9c69")]
 [assembly: System.Reflection.AssemblyProductAttribute("Faceid2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Faceid2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
