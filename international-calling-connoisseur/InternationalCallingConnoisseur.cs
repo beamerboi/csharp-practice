@@ -9,7 +9,7 @@ public static class DialingCodes
     {
         return new Dictionary<int, string>
         {
-            { 1, "United States" },
+            { 1, "United States of America" },
             { 55, "Brazil" },
             { 91, "India" }
         };
